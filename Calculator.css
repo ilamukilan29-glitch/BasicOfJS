@@ -9,7 +9,7 @@ body{
 #container{
     background-color: rgb(204,105,73);
     color: white;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     width: 400px;
