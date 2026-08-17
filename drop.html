@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop</title>
+</head>
+<body>
+    <select name="Courses" id="cours">
+    </select>
+</body>
+
+<script>
+    let arr= ["CSE", "IT", "AI&DS", "EEE", "ECE"];
+    let sel= document.getElementById("cours");
+    for( let i=0;i<arr.length;i++){
+        let opt=document.createElement("Option")
+        opt.innerHTML=arr[i]
+        document.getElementById("cours").appendChild(opt)
+    }
+</script>
+</html>

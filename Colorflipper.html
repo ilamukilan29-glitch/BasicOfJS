@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="colorflipper.css">
+</head>
+<body id="clr1">
+    <div id="container">
+        <h1>Color Flipper</h1>
+        <h1 id="code1">#FFFFFF</h1>
+
+    </div>
+
+    <div id="clr">
+    <button onclick="changebg()">Click To Flip</button>
+    </div>
+
+
+    <script>
+        let ran=[0 ,1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F']
+        let code= document.getElementById("code1");
+        let btn =document.getElementsByTagName("button")
+        let clr = document.getElementById("clr1")
+        function changebg(){
+        let color='#'
+        for(let i=1;i<=6;i++){
+            color+= random()
+        }
+        clr.style.backgroundColor= color
+        code.innerHTML=color
+    }
+        function random(){
+            let val =Math.floor(Math.random()*16)
+            return ran[val]
+        }
+    </script>
+</body>
+</html>

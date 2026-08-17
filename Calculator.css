@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    background-color: white;
+
+}
+#container{
+    background-color: rgb(204,105,73);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: white;
+    color: rgb(204,105,73);
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: white;
+}

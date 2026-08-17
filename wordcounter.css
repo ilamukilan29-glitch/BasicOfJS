@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#container{
+    background-color: rgb(11, 11, 54);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px ;
+    height: 500px;
+    border-radius: 30px;
+}
+body{
+    background-color: rgb(238, 253, 105);
+}
+button{
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color:rgb(238, 253, 105) ;
+    font-weight: bolder;
+    font-size: large;
+}
+textarea{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
